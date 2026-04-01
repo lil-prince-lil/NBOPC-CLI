@@ -21,7 +21,7 @@ for (const p of candidates) {
 }
 
 if (!claudeCli) {
-  console.error('Error: Could not find CLI engine. Try reinstalling: npm install -g github:AAAAAAAJ/NBOPC-CLI');
+  console.error('Error: Could not find CLI engine. Try reinstalling: npm install -g github:lil-prince-lil/NBOPC-CLI');
   process.exit(1);
 }
 

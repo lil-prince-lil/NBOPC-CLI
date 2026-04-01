@@ -40,13 +40,13 @@ NBOPC CLI is an agentic coding tool that lives in your terminal. It understands 
 ### From GitHub (Recommended)
 
 ```bash
-npm install -g github:AAAAAAAJ/NBOPC-CLI
+npm install -g github:lil-prince-lil/NBOPC-CLI
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/AAAAAAAJ/NBOPC-CLI.git
+git clone https://github.com/lil-prince-lil/NBOPC-CLI.git
 cd NBOPC-CLI
 npm install
 npm link
@@ -172,7 +172,7 @@ Create a `NBOPC.md` file in your project root to provide project-specific contex
 
 ## Community
 
-- **Issues**: [GitHub Issues](https://github.com/AAAAAAAJ/NBOPC-CLI/issues)
+- **Issues**: [GitHub Issues](https://github.com/lil-prince-lil/NBOPC-CLI/issues)
 
 ## License
 
