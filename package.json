@@ -1,0 +1,18 @@
+{
+  "name": "nbopc",
+  "version": "1.0.0",
+  "description": "NBOPC CLI - AI Community, Empowered by AI",
+  "bin": {
+    "nbopc": "./bin/nbopc.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@anthropic-ai/claude-code": "latest"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AAAAAAAJ/NBOPC-CLI.git"
+  },
+  "keywords": ["ai", "cli", "coding", "agi", "nbopc"]
+}
