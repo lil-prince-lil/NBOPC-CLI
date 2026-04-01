@@ -6,7 +6,7 @@ import { Box, Text } from '../../ink.js'
 const BANNER_LETTERS = [
   {
     key: 'N',
-    color: '#FF4444',
+    color: '#2857A4',
     rows: [
       '███╗   ██╗',
       '████╗  ██║',
@@ -18,7 +18,7 @@ const BANNER_LETTERS = [
   },
   {
     key: 'B',
-    color: '#FF8C00',
+    color: '#1EAF8E',
     rows: [
       '██████╗ ',
       '██╔══██╗',
@@ -30,7 +30,7 @@ const BANNER_LETTERS = [
   },
   {
     key: 'O',
-    color: '#FFD700',
+    color: '#FFFFFF',
     rows: [
       ' ██████╗ ',
       '██╔═══██╗',
@@ -42,7 +42,7 @@ const BANNER_LETTERS = [
   },
   {
     key: 'P',
-    color: '#44FF44',
+    color: '#2857A4',
     rows: [
       '██████╗ ',
       '██╔══██╗',
@@ -54,7 +54,7 @@ const BANNER_LETTERS = [
   },
   {
     key: 'C',
-    color: '#00CCFF',
+    color: '#1EAF8E',
     rows: [
       ' ██████╗',
       '██╔════╝',

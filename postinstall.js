@@ -50,7 +50,7 @@ function applyPatch(filePath) {
   // ── 2. CondensedLogo: bold "Claude Code" → rainbow NBOPC ──
   code = code.replace(
     /createElement\((\w+),\{bold:\s*!0\},"Claude Code"\)/g,
-    'createElement($1,{bold:!0},createElement($1,{color:"#FF4444"},"N"),createElement($1,{color:"#FF8C00"},"B"),createElement($1,{color:"#FFD700"},"O"),createElement($1,{color:"#44FF44"},"P"),createElement($1,{color:"#00CCFF"},"C"))'
+    'createElement($1,{bold:!0},createElement($1,{color:"#2857A4"},"N"),createElement($1,{color:"#1EAF8E"},"B"),createElement($1,{color:"#FFFFFF"},"O"),createElement($1,{color:"#2857A4"},"P"),createElement($1,{color:"#1EAF8E"},"C"))'
   );
 
   // ── 3. System prompt identity ──

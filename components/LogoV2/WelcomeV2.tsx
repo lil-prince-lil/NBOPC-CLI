@@ -17,13 +17,13 @@ const BANNER_WIDTH = 43
 
 const TAGLINE = '❯ ✦ AI Community  ·  Empowered by AI  ✦'
 
-// Rainbow colors for each letter of NBOPC
+// Brand colors for each letter of NBOPC
 const LETTER_COLORS: [string, HexColor][] = [
-  ['N', '#FF4444'],
-  ['B', '#FF8C00'],
-  ['O', '#FFD700'],
-  ['P', '#44FF44'],
-  ['C', '#00CCFF'],
+  ['N', '#2857A4'],
+  ['B', '#1EAF8E'],
+  ['O', '#FFFFFF'],
+  ['P', '#2857A4'],
+  ['C', '#1EAF8E'],
 ]
 
 function buildRainbowBorderTitle(

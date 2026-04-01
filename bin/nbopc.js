@@ -45,7 +45,7 @@ if (!fs.existsSync(patchMarker)) {
     // ── 2. CondensedLogo: rainbow NBOPC ──
     code = code.replace(
       /createElement\((\w+),\{bold:\s*!0\},"Claude Code"\)/g,
-      'createElement($1,{bold:!0},createElement($1,{color:"#FF4444"},"N"),createElement($1,{color:"#FF8C00"},"B"),createElement($1,{color:"#FFD700"},"O"),createElement($1,{color:"#44FF44"},"P"),createElement($1,{color:"#00CCFF"},"C"))'
+      'createElement($1,{bold:!0},createElement($1,{color:"#2857A4"},"N"),createElement($1,{color:"#1EAF8E"},"B"),createElement($1,{color:"#FFFFFF"},"O"),createElement($1,{color:"#2857A4"},"P"),createElement($1,{color:"#1EAF8E"},"C"))'
     );
 
     // ── 3. Replace "Welcome back" greeting ──
@@ -70,41 +70,41 @@ if (!fs.existsSync(patchMarker)) {
       'function oR6(q){' +
         'return WY.createElement(m,{flexDirection:"column"},' +
           'WY.createElement(m,{flexDirection:"row"},' +
-            'WY.createElement(v,{color:"#FF4444"},"\\u2588\\u2588\\u2588\\u2557   \\u2588\\u2588\\u2557"),' +
-            'WY.createElement(v,{color:"#FF8C00"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557 "),' +
-            'WY.createElement(v,{color:"#FFD700"}," \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557 "),' +
-            'WY.createElement(v,{color:"#44FF44"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557 "),' +
-            'WY.createElement(v,{color:"#00CCFF"}," \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557")),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2588\\u2557   \\u2588\\u2588\\u2557"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557 "),' +
+            'WY.createElement(v,{color:"#FFFFFF"}," \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557 "),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557 "),' +
+            'WY.createElement(v,{color:"#1EAF8E"}," \\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557")),' +
           'WY.createElement(m,{flexDirection:"row"},' +
-            'WY.createElement(v,{color:"#FF4444"},"\\u2588\\u2588\\u2588\\u2588\\u2557  \\u2588\\u2588\\u2551"),' +
-            'WY.createElement(v,{color:"#FF8C00"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
-            'WY.createElement(v,{color:"#FFD700"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
-            'WY.createElement(v,{color:"#44FF44"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
-            'WY.createElement(v,{color:"#00CCFF"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2550\\u2550\\u255D")),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2588\\u2588\\u2557  \\u2588\\u2588\\u2551"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
+            'WY.createElement(v,{color:"#FFFFFF"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2550\\u2550\\u255D")),' +
           'WY.createElement(m,{flexDirection:"row"},' +
-            'WY.createElement(v,{color:"#FF4444"},"\\u2588\\u2588\\u2554\\u2588\\u2588\\u2557 \\u2588\\u2588\\u2551"),' +
-            'WY.createElement(v,{color:"#FF8C00"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
-            'WY.createElement(v,{color:"#FFD700"},"\\u2588\\u2588\\u2551   \\u2588\\u2588\\u2551"),' +
-            'WY.createElement(v,{color:"#44FF44"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
-            'WY.createElement(v,{color:"#00CCFF"},"\\u2588\\u2588\\u2551     ")),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2554\\u2588\\u2588\\u2557 \\u2588\\u2588\\u2551"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
+            'WY.createElement(v,{color:"#FFFFFF"},"\\u2588\\u2588\\u2551   \\u2588\\u2588\\u2551"),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2551     ")),' +
           'WY.createElement(m,{flexDirection:"row"},' +
-            'WY.createElement(v,{color:"#FF4444"},"\\u2588\\u2588\\u2551\\u255A\\u2588\\u2588\\u2557\\u2588\\u2588\\u2551"),' +
-            'WY.createElement(v,{color:"#FF8C00"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
-            'WY.createElement(v,{color:"#FFD700"},"\\u2588\\u2588\\u2551   \\u2588\\u2588\\u2551"),' +
-            'WY.createElement(v,{color:"#44FF44"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2550\\u255D "),' +
-            'WY.createElement(v,{color:"#00CCFF"},"\\u2588\\u2588\\u2551     ")),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2551\\u255A\\u2588\\u2588\\u2557\\u2588\\u2588\\u2551"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2588\\u2588\\u2557"),' +
+            'WY.createElement(v,{color:"#FFFFFF"},"\\u2588\\u2588\\u2551   \\u2588\\u2588\\u2551"),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2554\\u2550\\u2550\\u2550\\u255D "),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2551     ")),' +
           'WY.createElement(m,{flexDirection:"row"},' +
-            'WY.createElement(v,{color:"#FF4444"},"\\u2588\\u2588\\u2551 \\u255A\\u2588\\u2588\\u2588\\u2588\\u2551"),' +
-            'WY.createElement(v,{color:"#FF8C00"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
-            'WY.createElement(v,{color:"#FFD700"},"\\u255A\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
-            'WY.createElement(v,{color:"#44FF44"},"\\u2588\\u2588\\u2551     "),' +
-            'WY.createElement(v,{color:"#00CCFF"},"\\u255A\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557")),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2551 \\u255A\\u2588\\u2588\\u2588\\u2588\\u2551"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
+            'WY.createElement(v,{color:"#FFFFFF"},"\\u255A\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2554\\u255D"),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u2588\\u2588\\u2551     "),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u255A\\u2588\\u2588\\u2588\\u2588\\u2588\\u2588\\u2557")),' +
           'WY.createElement(m,{flexDirection:"row"},' +
-            'WY.createElement(v,{color:"#FF4444"},"\\u255A\\u2550\\u255D  \\u255A\\u2550\\u2550\\u2550\\u255D"),' +
-            'WY.createElement(v,{color:"#FF8C00"},"\\u255A\\u2550\\u2550\\u2550\\u2550\\u2550\\u255D "),' +
-            'WY.createElement(v,{color:"#FFD700"}," \\u255A\\u2550\\u2550\\u2550\\u2550\\u2550\\u255D "),' +
-            'WY.createElement(v,{color:"#44FF44"},"\\u255A\\u2550\\u255D     "),' +
-            'WY.createElement(v,{color:"#00CCFF"}," \\u255A\\u2550\\u2550\\u2550\\u2550\\u2550\\u255D")))'  +
+            'WY.createElement(v,{color:"#2857A4"},"\\u255A\\u2550\\u255D  \\u255A\\u2550\\u2550\\u2550\\u255D"),' +
+            'WY.createElement(v,{color:"#1EAF8E"},"\\u255A\\u2550\\u2550\\u2550\\u2550\\u2550\\u255D "),' +
+            'WY.createElement(v,{color:"#FFFFFF"}," \\u255A\\u2550\\u2550\\u2550\\u2550\\u2550\\u255D "),' +
+            'WY.createElement(v,{color:"#2857A4"},"\\u255A\\u2550\\u255D     "),' +
+            'WY.createElement(v,{color:"#1EAF8E"}," \\u255A\\u2550\\u2550\\u2550\\u2550\\u2550\\u255D")))'  +
         '}'
     );
 
